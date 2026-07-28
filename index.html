@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Animal Familiar｜家族の健康記録アプリ</title>
+  <meta name="description" content="大切なペット（家族）の毎日の記録・通院・お薬リマインダーをひとつに。Animal Familiar。" />
+  <style>
+    :root {
+      --bg: #f7f3ea;
+      --ink: #2f3a32;
+      --muted: #5e6b62;
+      --accent: #5f7a66;
+      --card: #fffdf8;
+      --line: #e4ddd0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+      background:
+        radial-gradient(circle at top left, #e8f0e6 0%, transparent 45%),
+        linear-gradient(180deg, #fbf8f1 0%, var(--bg) 100%);
+      color: var(--ink);
+      line-height: 1.7;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 20px 64px;
+    }
+    .eyebrow {
+      display: inline-block;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: clamp(28px, 5vw, 40px);
+      line-height: 1.25;
+      margin: 0 0 12px;
+      font-weight: 700;
+    }
+    .lead {
+      color: var(--muted);
+      font-size: 16px;
+      margin: 0 0 28px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+    .card h2 {
+      font-size: 18px;
+      margin: 0 0 12px;
+    }
+    ul {
+      margin: 0;
+      padding-left: 1.2em;
+      color: var(--muted);
+    }
+    li { margin: 6px 0; }
+    .cta {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 14px 22px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .cta:hover { opacity: 0.92; }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 18px;
+      margin-top: 18px;
+      font-size: 14px;
+    }
+    .links a { color: var(--accent); }
+    footer {
+      margin-top: 36px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <span class="eyebrow">PET HEALTH RECORD</span>
+    <h1>Animal Familiar</h1>
+    <p class="lead">
+      大切な家族（ペット）の毎日を、やさしく残す健康記録アプリです。<br />
+      ごはん・体調・通院・お薬リマインダーをひとつにまとめられます。
+    </p>
+
+    <section class="card">
+      <h2>できること</h2>
+      <ul>
+        <li>毎日のごはん・飲水・体調などの記録</li>
+        <li>変化がわかるグラフ</li>
+        <li>通院・ワクチンの履歴</li>
+        <li>お薬・ごはんのリマインダー</li>
+        <li>獣医さんに渡しやすいレポート</li>
+      </ul>
+      <p style="margin: 20px 0 0;">
+        <a class="cta" href="https://apps.apple.com/jp/app/animal-familiar/id6791411879">
+          App Store で見る（無料）
+        </a>
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>リンク</h2>
+      <div class="links">
+        <a href="https://apps.apple.com/jp/app/animal-familiar/id6791411879">App Store</a>
+        <a href="https://nutritious-blob-b10.notion.site/39f717746fab80b98f9dc4db0f63e108">プライバシーポリシー</a>
+        <a href="https://nutritious-blob-b10.notion.site/39f717746fab80499260ecc0d3468ccc">利用規約</a>
+        <a href="mailto:animalfamiliar.support@gmail.com">お問い合わせ</a>
+      </div>
+    </section>
+
+    <footer>
+      © Animal Familiar<br />
+      本アプリは医療行為や診断の代替ではありません。
+    </footer>
+  </main>
+</body>
+</html>
